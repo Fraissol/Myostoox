@@ -1,6 +1,6 @@
 <p align="center"> <img src="assets/logo_big2.png" alt="Myostoox logo" width="300"> </p> <p align="center"><br><br> <em>A complete audio player built with GTK3 and GStreamer... but a bit of a video player too.</em> <p align="center">
   <img src="assets/banner.svg" alt="Myostoox — Music · Radio · IPTV · CD/DVD · Video" width="920">
-</p><br> <p align="center"> <strong><a href="https://github.com/Fraissol/Myostoox/raw/refs/heads/main/myostoox_1.5-1_all.deb">📦 Download Myostoox 1.5.1 (.deb)</a></strong> </p><br> 
+</p><br> <p align="center"> <strong><a href="https://github.com/Fraissol/Myostoox/raw/refs/heads/main/myostoox_1.5-3_all.deb">📦 Download Myostoox 1.5.3 (.deb)</a></strong> </p><br> 
 
 # Myostoox
 
@@ -199,17 +199,17 @@ And it brings together music, videos, Internet radio, TV and M3U playlists, as w
 Download the `.deb` package:
 
 <p align="center">
-  <strong><a href="https://github.com/Fraissol/Myostoox/raw/refs/heads/main/myostoox_1.5-1_all.deb">📦 Download Myostoox 1.5.1 (.deb)</a></strong>
+  <strong><a href="https://github.com/Fraissol/Myostoox/raw/refs/heads/main/myostoox_1.5-3_all.deb">📦 Download Myostoox 1.5.3 (.deb)</a></strong>
 </p>
 
 From the directory containing the deb package, open a Terminal and install the application with one of the following commands:
 
 ```bash
-sudo apt install ./myostoox_1.5-1_all.deb
+sudo apt install ./myostoox_1.5-3_all.deb
 
 # or
 
-sudo dpkg -i myostoox_1.5-1_all.deb
+sudo dpkg -i myostoox_1.5-3_all.deb
 
 ```
 
@@ -408,6 +408,12 @@ Configuration: `~/.config/Myostoox/` (playlist, state, radios, themes…).<br>
 | No notifications | `sudo apt install gir1.2-notify-0.7` |
 | CD not detected | `libcdio` + ugly plugins; make sure it is a real audio CD (not data) |
 | Screen turns off during a movie | Check that the session exposes the ScreenSaver D-Bus interface (XFCE does) |
+
+---
+
+## Platform & playback notes: Myostoox targets
+
+**X11** desktop environments (XFCE, LXQt, and similar). Most media plays smoothly; on integrated GPUs, some heavy **4K files** may still show slight stuttering—mpv remains a stronger choice for pure high-bitrate video playback.
 
 ---
 
