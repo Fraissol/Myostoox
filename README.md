@@ -34,11 +34,11 @@ And it brings together music, videos, Internet radio, TV and M3U playlists, as w
 
     • 10-Band Graphic Equalizer — Presets: Flat, Crystal, Bass Boost, Classical, Jazz, Rock-Pop …
 
+    • Preamp
+
     • Pitch and tempo control
 
     • Normalization (ReplayGain)
-
-    • Video playback resume support
 
     • Mono + L/R Balance
 
@@ -46,7 +46,7 @@ And it brings together music, videos, Internet radio, TV and M3U playlists, as w
 
     • Sleep timer
     
-    • 3 Spectrum analyzer (Bars, Oscilloscope, Pixel)
+    • 3 Spectrum analyzers (Bars, Oscilloscope, Pixel)
 
     • LRC lyrics
 
